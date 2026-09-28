@@ -1,0 +1,7 @@
+Table sessions {
+  id uuid [pk]
+  user_id uuid [not null]
+  token_hash varchar [not null]
+  expires_at timestamp [not null]
+  revoked_at timestamp
+}

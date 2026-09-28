@@ -1,0 +1,9 @@
+@startuml
+actor Client
+component Gateway
+component "Auth Service" as Auth
+component Database
+Client -> Gateway
+Gateway -> Auth
+Auth -> Database
+@enduml

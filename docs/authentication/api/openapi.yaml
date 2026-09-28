@@ -1,0 +1,9 @@
+openapi: 3.1.0
+info: { title: Authentication API, version: 2.4.0 }
+paths:
+  /oauth/token:
+    post:
+      operationId: issueToken
+      responses:
+        '200': { description: Token issued }
+        '401': { description: Invalid or expired credentials }

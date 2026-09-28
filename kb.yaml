@@ -1,0 +1,17 @@
+name: Authentication Service
+content:
+  root: docs
+entities:
+  requirement:
+    pattern: "**/requirements/*.md"
+  test:
+    pattern: "**/test-cases/*.md"
+  decision:
+    pattern: "**/decisions/*.md"
+sources:
+  openapi:
+    pattern: "**/openapi.yaml"
+  dbml:
+    pattern: "**/*.dbml"
+  plantuml:
+    pattern: "**/*.puml"
