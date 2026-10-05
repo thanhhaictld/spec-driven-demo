@@ -16,10 +16,13 @@ level: integration
 # Issue token with valid credentials
 
 ## Given
-A valid user account exists.
+
+A valid user account exists in our database
 
 ## When
+
 The client calls `POST /oauth/token` with valid credentials.
 
 ## Then
+
 The response status MUST be `200` and the response MUST contain `access_token`.
