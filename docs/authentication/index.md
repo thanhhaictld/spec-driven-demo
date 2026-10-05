@@ -10,6 +10,7 @@ owner: platform-team
 # Authentication Service
 
 Provides authentication and token management for the platform.
+Updated: Oct-06-2026
 
 ## Architecture
 
